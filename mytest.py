@@ -2,7 +2,7 @@ import asyncio
 import httpx
 
 URL = "https://priest-herbal-needs-occupational.trycloudflare.com"
-WORKERS = 10
+WORKERS = 15
 
 async def worker(client, worker_id):
     count = 0
